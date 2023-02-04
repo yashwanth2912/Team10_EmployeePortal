@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="ISO-8859-1">
+    <title>TEAM-10</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      /* Global styles */
+      body 
+      {
+      background-image: url('https://media.istockphoto.com/id/1206983388/photo/businessman-working-on-laptop-protection-network-security-computer-and-safe-your-data-concept.jpg?s=612x612&w=0&k=20&c=fmT4mk850n06BOrdirraLktpBIfhQvxbyG03avRtsrE=');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+      }
+     
+      h1 
+      {
+        text-align: center;
+        margin-bottom: 40px;
+        background-color:pink
+      }
+
+   
+      /* Button styles */
+      button 
+      {
+        width: 40%;
+        background-color: purple;
+        color:red;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        margin-left:60px;
+      margin-right:60px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        
+      }
+
+      /* Link styles */
+      a 
+      {
+        color: #007bff;
+        text-decoration: none;
+      }
+
+      /* Additional link styles */
+      .hr-section, .contact-section 
+      {
+        text-align: center;
+        margin-top: 20px;
+      }
+
+      /* Image styles */
+      img 
+      {
+        width: 5%;
+        margin-bottom: 5px;
+      }
+      /* Form styles */
+  
+
+     /* Form styles for desktop mode */
+    @media only screen and (min-width: 768px) 
+    {
+   
+   }
+    #header 
+    {
+    float: left; /* or float: right; */
+  }
+
+  
+  #header 
+  {
+  display: flex; /* or grid */
+  align-items: center; /* align items vertically */
+  justify-content: space-between; /* align items horizontally */
+  }
+    </style>
+    
+
+  </head>
+  <body>
+  
+    
+      <img src="https://freepngimg.com/save/70298-management-business-icons-consultant-company-social-marketing/2000x1999" alt="Portal logo">
+      
+      <div><h1>Employee Portal-TEAM10</h1></div>
+      <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+      <div> 
+       
+ <button class="btn"><i class="fa fa-user icon"></i><a th:href="@{/hr/login}" target="_blank">HR LOGIN</a></button>
+   <button class="btn"><i class="fa fa-user icon"></i><a th:href="@{/employee/login}" target="_blank">EMPLOYEE LOGIN</a></button>
+      
+  </body>
+  
+
+</html>
